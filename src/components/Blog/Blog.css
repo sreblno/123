@@ -1,0 +1,93 @@
+.title {
+  margin-top: 100px;
+  position: relative;
+  width: 70%;
+  text-align: center;
+  font-style: initial;
+  background-color: rgb(188, 250, 240);
+  border-radius: 20px;
+  box-shadow: 2px 2px 7px black;
+  text-shadow: 1px 1px gray;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: start;
+  background-color: rgb(216, 243, 239);
+}
+
+.list {
+  position: relative;
+  background-color: rgb(254, 247, 254);
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px;
+  box-shadow: 4px 4px 7px gray;
+  width: 70%;
+}
+
+.list h4 {
+  display: inline;
+  cursor: pointer;
+}
+
+.list span {
+  margin-left: 20px;
+  margin-right: 3px;
+  cursor: pointer;
+}
+
+.list button {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+}
+
+.modal {
+  background-color: azure;
+  padding: 25px;
+  padding-block: 20px;
+  border-radius: 11px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  width: 80%;
+  max-width: 500px;
+}
+
+.input-box {
+  width: 100%;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-box input {
+  height: 20px;
+  font-size: 16px;
+  margin: 0 10px;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0 0 3px black;
+}
+
+.input-box button {
+  padding: 3px 10px;
+  font-size: 13px;
+  background-color: lightblue;
+  border: none;
+  box-shadow: 0 0 2.5px black;
+  border-radius: 8px;
+  cursor: pointer;
+}
