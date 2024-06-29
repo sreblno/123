@@ -7,7 +7,7 @@
   background-color: rgb(188, 250, 240);
   border-radius: 20px;
   box-shadow: 2px 2px 7px black;
-  text-shadow: 1px 1px gray;
+  font-size: smaller;
 }
 
 .container {

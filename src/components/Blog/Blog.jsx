@@ -18,7 +18,7 @@ function App() {
 
     <div className="container">
       <div className='title'>
-        <h1>2</h1>
+        <h1>Blog</h1>
       </div>
       <div className="input-box">
         <input onChange={(e) => {

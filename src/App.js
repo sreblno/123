@@ -3,6 +3,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Gallery from './components/Gallery/Gallery';
 import Blog from './components/Blog/Blog';
+import Start from './components/Start/Start';
 
 function App() {
 
@@ -11,7 +12,7 @@ function App() {
       <Router>
         <nav className="navbar">
           <div className="logo">
-            <Link to="/"> 123 </Link>
+            <Link to="/st">Homeworks</Link>
           </div>
           <div className="name">
             <ul>
@@ -22,6 +23,7 @@ function App() {
         </nav>
 
         <Routes>
+          <Route path="/st" element={<Start />} />
           <Route path="/" element={<Gallery />} />
           <Route path="/blog" element={<Blog />} />
         </Routes>
